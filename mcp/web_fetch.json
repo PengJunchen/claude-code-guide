@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "web-fetch": {
+      "description": "A Model Context Protocol (MCP) server that provides web fetching capabilities. This server enables LLMs to fetch content from web pages and process the results.",
+      "command": "npx",
+      "args": [
+        "@web-fetch/mcp@latest"
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "postgresql": {
+      "description": "A Model Context Protocol (MCP) server that provides PostgreSQL database integration capabilities. This server enables LLMs to interact with PostgreSQL databases through structured queries and commands.",
+      "command": "npx",
+      "args": [
+        "@postgresql/mcp@latest"
+      ]
+    },
+    "mysql": {
+      "description": "A Model Context Protocol (MCP) server that provides MySQL database integration capabilities. This server enables LLMs to interact with MySQL databases through structured queries and commands.",
+      "command": "npx",
+      "args": [
+        "@mysql/mcp@latest"
+      ]
+    }
+  }
+}

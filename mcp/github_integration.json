@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "github": {
+      "description": "A Model Context Protocol (MCP) server that provides GitHub integration capabilities. This server enables LLMs to interact with GitHub repositories, issues, pull requests, and other GitHub features.",
+      "command": "npx",
+      "args": [
+        "@github/mcp@latest"
+      ]
+    }
+  }
+}
